@@ -14,6 +14,7 @@ kun<-function(x){
   data.frame(min=min(x),
             median=median(x),
             max=max(x))
+            sd=sd(x)
 }
 
 
